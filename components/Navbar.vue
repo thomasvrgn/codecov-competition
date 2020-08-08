@@ -10,7 +10,7 @@
         </span>
       </div>
     </div>
-    <div class="flex flex-auto border-t-4 border-white text-gray-600 flex-col list-none" :class="{'hidden': !opened}">
+    <div class="flex flex-auto border-t-4 border-white text-gray-600 flex-col list-none absolute w-full bg-gray-900 mt-16" :class="{'hidden': !opened}">
       <li class="border-b border-white px-6 py-4 hover:text-white cursor-pointer">
         Features
       </li>
