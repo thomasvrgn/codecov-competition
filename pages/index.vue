@@ -8,6 +8,7 @@
     <Support />
     <Protection />
     <Cover />
+    <Footer />
   </div>
 </template>
 
@@ -28,6 +29,7 @@ import Review from '@/components/sections/Review.vue'
 import Support from '@/components/Support.vue'
 import Protection from '@/components/Protection.vue'
 import Cover from '@/components/Cover.vue'
+import Footer from '@/components/Footer.vue'
 
 export default Vue.extend({
   components: {
@@ -38,7 +40,8 @@ export default Vue.extend({
     Review,
     Support,
     Protection,
-    Cover
+    Cover,
+    Footer
   }
 })
 </script>
