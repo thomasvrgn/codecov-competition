@@ -6,8 +6,16 @@
 */
 module.exports = {
   theme: {
-    colors: {
-      gray: '#0e1b29'
+    extend: {
+      colors: {
+        gray: {
+          '900': '#0f1b29',
+          '600': '#e2e6ea'
+        }
+      },
+      fontFamily: {
+        'sans': ['Sailec Medium']
+      }
     }
   },
   variants: {},
