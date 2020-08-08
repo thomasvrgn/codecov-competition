@@ -5,7 +5,11 @@
 ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
 */
 module.exports = {
-  theme: {},
+  theme: {
+    colors: {
+      gray: '#0e1b29'
+    }
+  },
   variants: {},
   plugins: [],
   purge: {
