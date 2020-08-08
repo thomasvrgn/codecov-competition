@@ -2,6 +2,7 @@
   <div class="root">
     <Navbar />
     <Header />
+    <Features />
   </div>
 </template>
 
@@ -16,11 +17,13 @@
 import Vue from 'vue'
 import Navbar from '@/components/Navbar.vue'
 import Header from '@/components/Header.vue'
+import Features from '@/components/Features.vue'
 
 export default Vue.extend({
   components: {
     Navbar,
-    Header
+    Header,
+    Features
   }
 })
 </script>
