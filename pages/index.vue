@@ -5,6 +5,7 @@
     <Features />
     <Merge />
     <Review />
+    <Support />
   </div>
 </template>
 
@@ -22,6 +23,7 @@ import Header from '@/components/Header.vue'
 import Features from '@/components/Features.vue'
 import Merge from '@/components/sections/Merge.vue'
 import Review from '@/components/sections/Review.vue'
+import Support from '@/components/Support.vue'
 
 export default Vue.extend({
   components: {
@@ -29,7 +31,8 @@ export default Vue.extend({
     Header,
     Features,
     Merge,
-    Review
+    Review,
+    Support
   }
 })
 </script>
