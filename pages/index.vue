@@ -3,6 +3,8 @@
     <Navbar />
     <Header />
     <Features />
+    <Merge />
+    <Review />
   </div>
 </template>
 
@@ -18,12 +20,16 @@ import Vue from 'vue'
 import Navbar from '@/components/Navbar.vue'
 import Header from '@/components/Header.vue'
 import Features from '@/components/Features.vue'
+import Merge from '@/components/sections/Merge.vue'
+import Review from '@/components/sections/Review.vue'
 
 export default Vue.extend({
   components: {
     Navbar,
     Header,
-    Features
+    Features,
+    Merge,
+    Review
   }
 })
 </script>
