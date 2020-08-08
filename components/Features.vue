@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col container mt-24">
+  <div class="flex flex-col container mt-24 mx-auto">
     <div class="flex flex-auto justify-center my-8">
       <div class="container text-center">
         <img src="@/assets/images/icon_1.svg" class="mx-auto" alt="">

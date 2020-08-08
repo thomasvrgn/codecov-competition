@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col container mt-16">
+  <div class="flex flex-col container mt-16 mx-auto">
     <div class="flex flex-auto justify-center w-9/12 mx-auto">
       <img src="@/assets/images/first_section.svg" alt="">
     </div>
