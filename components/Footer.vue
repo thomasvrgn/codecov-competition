@@ -8,7 +8,7 @@
         Email
       </a>
     </div>
-    <div class="container flex flex-col mt-32 mx-auto space-y-12">
+    <div class="container flex flex-col mt-32 mx-auto space-y-12 lg:flex-row lg:space-y-0 lg:space-x-16 lg:w-6/12">
       <div class="flex flex-auto">
         <div class="container">
           <span class="text-gray-600 font-light opacity-75 text-lg">
@@ -94,8 +94,8 @@
         </div>
       </div>
     </div>
-    <div class="container mt-32 mb-12">
-      <span class="text-center block text-white opacity-50">
+    <div class="container mt-32 mb-12 mx-auto">
+      <span class="text-center block text-white opacity-50 font-light">
         © Codecov 2020
       </span>
     </div>

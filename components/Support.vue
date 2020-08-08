@@ -7,9 +7,9 @@
       <span class="font-bold mt-8 block text-xl">
         industry leaders
       </span>
-      <div class="flex flex-col mt-8">
-        <div class="flex flex-initial justify-center my-4 mx-auto" v-for="path in industries_files" :key=path>
-          <img :srcset="require(`@/assets/images/industries/${path}`)" style="filter: grayscale(100%)" alt="" class="w-1/3">
+      <div class="flex flex-col flex-wrap mt-8 lg:flex-row lg:w-10/12 lg:mx-auto justify-center lg:space-x-16">
+        <div class="flex flex-initial justify-center my-4 mx-auto lg:flex-none" v-for="path in industries_files" :key=path>
+          <img :srcset="require(`@/assets/images/industries/${path}`)" style="filter: grayscale(100%)" alt="" class="w-1/3 lg:w-24">
         </div>
       </div>
     </div>
@@ -17,9 +17,9 @@
       <span class="font-bold mt-12 mb-12 block text-xl">
         and top open source projects
       </span>
-      <div class="flex flex-col mt-8">
-        <div class="flex flex-initial justify-center my-4 mx-auto" v-for="path in open_source_files" :key=path>
-          <img :srcset="require(`@/assets/images/opensource/${path}`)" style="filter: grayscale(100%)" alt="" class="w-1/3">
+      <div class="flex flex-col flex-wrap mt-8 lg:flex-row lg:w-12/12 lg:mx-auto justify-center lg:space-x-16">
+        <div class="flex flex-initial justify-center my-4 mx-auto lg:flex-none" v-for="path in open_source_files" :key=path>
+          <img :srcset="require(`@/assets/images/opensource/${path}`)" style="filter: grayscale(100%)" alt="" class="w-1/3 lg:max-w-full lg:w-24 block relative">
         </div>
       </div>
     </div>

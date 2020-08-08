@@ -15,7 +15,10 @@ module.exports = {
         }
       },
       fontFamily: {
-        'sans': ['Sailec Medium']
+        'sans': ['Sailec Medium', 'Sailec Bold', 'Sailed Light', 'Sailed Light'],
+        'bold': ['Sailec Bold'],
+        'light': ['Sailec Light'],
+        'thin': ['Sailec Thin']
       }
     }
   },

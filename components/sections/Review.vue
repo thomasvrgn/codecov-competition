@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col mt-40">
-    <div class="flex flex-auto">
+  <div class="flex flex-col mt-40 lg:flex-row lg:w-11/12 lg:mx-auto">
+    <div class="flex flex-auto lg:order-last">
       <img src="@/assets/images/third_section.svg" class="w-9/12 mx-auto" alt="">
     </div>
     <div class="flex flex-auto mt-20">
@@ -11,9 +11,9 @@
         <p class="w-3/4 mt-8 text-gray-800">
           Detailed report commented directly into your pull request.
         </p>
-        <ul class="mt-8">
-          <li class="-ml-2 text-gray-800">
-            <span class="inline-block align-middle">
+        <ul class="mt-8 font-light">
+          <li class="-ml-2 text-gray-800 font-light">
+            <span class="inline-block align-middle font-light">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5858 13.4142L7.75735 10.5858L6.34314 12L10.5858 16.2427L17.6568 9.1716L16.2426 7.75739L10.5858 13.4142Z" fill="#77ff00" /></svg>
             </span>
             Customize comments in your pull requests

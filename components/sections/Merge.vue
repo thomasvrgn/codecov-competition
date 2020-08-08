@@ -1,14 +1,14 @@
 <template>
-  <div class="flex flex-col mt-40">
-    <div class="flex flex-auto">
-      <img src="@/assets/images/second_section.svg" class="w-9/12 mx-auto" alt="">
+  <div class="flex flex-col mt-40 lg:flex-row lg:w-11/12 lg:mx-auto">
+    <div class="flex flex-auto lg:mr-8">
+      <img src="@/assets/images/second_section.svg" class="w-9/12 mx-auto lg:w-full" alt="">
     </div>
-    <div class="flex flex-auto mt-20">
+    <div class="flex flex-auto mt-20 lg:flex-initial">
       <div class="container w-11/12 mx-auto">
         <h1 class="text-xl font-bold">
           Merge reports automatically.
         </h1>
-        <p class="w-3/4 mt-8 text-gray-800">
+        <p class="w-3/4 mt-8 text-gray-800 lg:w-full lg:max-w-3xl">
           No setup required. Automatic report merging for all CI and languages into a single report. Get custom statuses on any group of coverage metrics. Review coverage reports by project, folder and type test (unittests vs integration tests).
         </p>
         <ul class="mt-8">
