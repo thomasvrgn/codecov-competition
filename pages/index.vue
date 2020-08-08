@@ -1,7 +1,7 @@
 <template>
   <div class="root">
     <Navbar />
-    test
+    <Header />
   </div>
 </template>
 
@@ -15,10 +15,12 @@
 <script lang="ts">
 import Vue from 'vue'
 import Navbar from '@/components/Navbar.vue'
+import Header from '@/components/Header.vue'
 
 export default Vue.extend({
   components: {
-    Navbar
+    Navbar,
+    Header
   }
 })
 </script>
