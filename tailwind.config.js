@@ -10,7 +10,8 @@ module.exports = {
       colors: {
         gray: {
           '900': '#0f1b29',
-          '600': '#e2e6ea'
+          '600': '#e2e6ea',
+          '800': '#333333'
         }
       },
       fontFamily: {
