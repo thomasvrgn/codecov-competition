@@ -13,7 +13,7 @@
           <br />
           Free for open source. Plans starting at $10/user per month.
         </p>
-        <button class="bg-blue-600 text-white px-4 py-3 mt-8 rounded-full">
+        <button class="bg-blue-600 text-white px-4 py-3 mt-8 rounded-full hover:bg-blue-700">
           Get Started
         </button>
       </div>

@@ -37,7 +37,7 @@
             Isolate coverage per folder or internal project
           </li>
         </ul>
-        <a href="" class="text-blue-500 mt-4 block">
+        <a href="" class="text-blue-500 mt-4 block hover:text-blue-600">
           <span class="hover:underline">
             Learn more about report merging
           </span>

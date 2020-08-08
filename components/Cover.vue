@@ -9,7 +9,7 @@
     <div>
       <img src="@/assets/images/background.svg" alt="">
       <div class="container mx-auto block text-center -mt-8">
-        <a href="" class="ext-center mx-auto inline-block bg-blue-600 px-4 py-3 rounded-full text-white">
+        <a href="" class="ext-center mx-auto inline-block bg-blue-600 px-4 py-3 rounded-full text-white hover:bg-blue-700">
         Get Started Now
       </a>
       </div>

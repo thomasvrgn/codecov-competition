@@ -9,7 +9,7 @@
         <p class="mt-8">
           Ruby, Python, C++, Javascript, and more.
           <br />
-          <a href="" class="text-blue-500">
+          <a href="" class="text-blue-500 hover:text-blue-600">
             View supported languages.
           </a>
         </p>
@@ -24,7 +24,7 @@
         <p class="mt-8">
           Plug and play into any CI product and workflow.
           <br />
-          <a href="" class="text-blue-500">
+          <a href="" class="text-blue-500 hover:text-blue-600">
             View supported providers.
           </a>
         </p>
@@ -39,7 +39,7 @@
         <p class="mt-8">
           Get started in seconds.
           <br />
-          <a href="" class="text-blue-500">
+          <a href="" class="text-blue-500 hover:text-blue-600">
             Learn more.
           </a>
         </p>
