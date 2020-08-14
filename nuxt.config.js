@@ -15,11 +15,12 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: 'The Leading Code Coverage Solution | Codecov',
+    title: 'Code Coverage Done Right | Codecov',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Codecov is the leading, dedicated code coverage solution. Try Codecov for free now to help your developers find untested code and deploy changes with confidence.' }
+      { hid: 'description', name: 'description', content: 'Codecov is the leading, dedicated code coverage solution. Try Codecov for free now to help your developers find untested code and deploy changes with confidence.' },
+      { hid: 'og:image', property: 'og:image', content: 'https://codecov.io/static/header-logo-pink.png' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
