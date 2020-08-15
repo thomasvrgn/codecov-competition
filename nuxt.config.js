@@ -22,25 +22,25 @@ export default {
 
       // Default metas
       
-      { hid: 'description', name: 'description', content: 'Codecov is the leading, dedicated code coverage solution. Try Codecov for free now to help your developers find untested code and deploy changes with confidence.' },
-      { hid: 'title', name: 'title', content: 'Code Coverage Done Right | Codecov' },
+      { name: 'description', content: 'Codecov is the leading, dedicated code coverage solution. Try Codecov for free now to help your developers find untested code and deploy changes with confidence.' },
+      { name: 'title', content: 'Code Coverage Done Right | Codecov' },
 
       // OG Metas
 
-      { hid: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'og:image', property: 'og:image', content: 'https://codecov.io/static/header-logo-pink.png' },
-      { hid: 'og:title', property: 'og:title', content: 'Code Coverage Done Right | Codecov' },
-      { hid: 'og:url', property: 'og:url', content: 'https://codecov-ness.netlify.app/' },
-      { hid: 'og:description', property: 'og:description', content: 'Codecov is the leading, dedicated code coverage solution. Try Codecov for free now to help your developers find untested code and deploy changes with confidence.' },
-      { hid: 'og:image', property: 'og:image', content: 'https://codecov.io/static/header-logo-pink.png' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:image', content: 'https://codecov.io/static/header-logo-pink.png' },
+      { property: 'og:title', content: 'Code Coverage Done Right | Codecov' },
+      { property: 'og:url', content: 'https://codecov-ness.netlify.app/' },
+      { property: 'og:description', content: 'Codecov is the leading, dedicated code coverage solution. Try Codecov for free now to help your developers find untested code and deploy changes with confidence.' },
+      { property: 'og:image', content: 'https://codecov.io/static/header-logo-pink.png' },
 
       // Twitter Metas
 
-      { hid: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' },
-      { hid: 'twitter:url', property: 'twitter:url', content: 'https://codecov-ness.netlify.app/' },
-      { hid: 'twitter:title', property: 'twitter:title', content: 'Code Coverage Done Right | Codecov' },
-      { hid: 'twitter:description', property: 'twitter:description', content: 'Codecov is the leading, dedicated code coverage solution. Try Codecov for free now to help your developers find untested code and deploy changes with confidence.' },
-      { hid: 'twitter:image', property: 'twitter:image', content: 'https://codecov.io/static/header-logo-pink.png' },
+      { property: 'twitter:card', content: 'summary_large_image' },
+      { property: 'twitter:url', content: 'https://codecov-ness.netlify.app/' },
+      { property: 'twitter:title', content: 'Code Coverage Done Right | Codecov' },
+      { property: 'twitter:description', content: 'Codecov is the leading, dedicated code coverage solution. Try Codecov for free now to help your developers find untested code and deploy changes with confidence.' },
+      { property: 'twitter:image', content: 'https://codecov.io/static/header-logo-pink.png' },
 
     ],
     link: [

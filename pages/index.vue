@@ -42,6 +42,11 @@ export default Vue.extend({
     Protection,
     Cover,
     Footer
+  },
+  head: function () {
+    return {
+      headAttrs: undefined
+    }
   }
 })
 </script>
