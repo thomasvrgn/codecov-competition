@@ -20,7 +20,8 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Codecov is the leading, dedicated code coverage solution. Try Codecov for free now to help your developers find untested code and deploy changes with confidence.' },
-      { hid: 'og:image', property: 'og:image', content: 'https://codecov.io/static/header-logo-pink.png' }
+      { hid: 'og:image', property: 'og:image', content: 'https://codecov.io/static/header-logo-pink.png' },
+      { hid: 'og:title', property: 'og:title', content: 'Code Coverage Done Right | Codecov'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
