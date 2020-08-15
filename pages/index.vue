@@ -42,11 +42,6 @@ export default Vue.extend({
     Protection,
     Cover,
     Footer
-  },
-  head: function () {
-    return {
-      title: 'The Leading Code Coverage Solution | Codecov'
-    }
   }
 })
 </script>

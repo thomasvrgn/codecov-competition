@@ -15,7 +15,7 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: 'Code Coverage Done Right | Codecov',
+    title: 'The Leading Code Coverage Solution | Codecov',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -27,6 +27,7 @@ export default {
 
       // OG Metas
 
+      { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:image', property: 'og:image', content: 'https://codecov.io/static/header-logo-pink.png' },
       { hid: 'og:title', property: 'og:title', content: 'Code Coverage Done Right | Codecov' },
       { hid: 'og:url', property: 'og:url', content: 'https://codecov-ness.netlify.app/' },
